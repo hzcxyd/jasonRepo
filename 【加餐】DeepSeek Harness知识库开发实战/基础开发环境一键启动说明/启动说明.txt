@@ -1,0 +1,23 @@
+解压整个学员资料包后，进入：
+
+  DeepSeek-Harness-工业级-LLM-Wiki-开发实战-学员资料包/
+  └── 02-课件配套材料/
+      └── 03-DSH运行能力包/
+
+  然后直接双击：
+
+  - macOS：一键创建LLM-Wiki开发项目-macOS.command
+  - Windows：一键创建LLM-Wiki开发项目-Windows.bat
+
+  运行后，项目会创建在脚本旁边：
+
+  03-DSH运行能力包/
+  ├── 01-Agent-Preset/
+  ├── 02-项目Skills/
+  ├── 一键创建LLM-Wiki开发项目-macOS.command
+  ├── 一键创建LLM-Wiki开发项目-Windows.bat
+  └── LLM-Wiki-Development/       ← 新创建的项目主目录
+
+  不要只把 .command 或 .bat 单独复制出去，因为它们需要读取同目录下的完整 Preset 和 Skills。
+
+  创建完成后，在 DSH 中把新生成的 LLM-Wiki-Development/ 选择为 Workspace，就可以开始 STAGE-01。
